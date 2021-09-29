@@ -3,7 +3,7 @@
 #include <math.h>
 #include <stdlib.h>
 
-int main()
+void main()
 {
     double i = 1;
     double res = NULL;
