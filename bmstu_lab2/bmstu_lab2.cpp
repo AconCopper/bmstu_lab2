@@ -5,10 +5,10 @@
 
 void main()
 {
-    double i = 1;
-    double res = NULL;
+    double i = 50;
+    double res = 0;
     do {
-        res = sqrt(i++) + res;
-    } while (i != 51);
+        res = sqrt(res + i--);
+    } while (i != 0);
     std::cout << res;
 }
